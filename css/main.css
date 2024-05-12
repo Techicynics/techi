@@ -1441,6 +1441,8 @@ button {
   align-items: center;
   position: relative;
   z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: lighten;
 }
 
 .page-header2 {
