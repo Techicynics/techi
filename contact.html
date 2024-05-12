@@ -143,37 +143,95 @@
               </h4>
             </div>
           </div>
-          <div class="col-lg-6 sm-padding">
-            <ul class="about-promo">
-              <li class="about-promo-item wow fadeInUp">
-                <i class="ti-instagram" width="50" height="50"></i>
-                <div>
-                  <a href=" https://www.instagram.com/techicynics/">
-                    <h3>INSTAGRAM</h3>
-                  </a>
-                </div>
-              </li>
-              <li class="about-promo-item wow fadeInUp" data-wow-delay="300ms">
-                <i class="ti-facebook"></i>
-                <div>
-                  <a
-                    href=" https://www.facebook.com/profile.php?id=100093682321092"
-                  >
-                    <h3>FACEBOOK</h3>
-                  </a>
-                </div>
-              </li>
+          <!-- form -->
 
-              <li class="about-promo-item wow fadeInUp" data-wow-delay="300ms">
-                <i class="ti-youtube"></i>
-                <div>
-                  <a
-                    href=" https://www.youtube.com/channel/UCTbsUcesngwD7sMO0uweMYQ"
-                  >
-                    <h3>YOUTUBE</h3>
-                  </a>
+          <div class="col-md-6 padding-15">
+            <div class="contact-form">
+              <form
+                action=" something required here to connect to back end"
+                method="post"
+                id="ajax_form"
+                class="form-horizontal"
+              >
+                <div class="form-group colum-row row">
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      class="form-control"
+                      placeholder="Name"
+                      required
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
                 </div>
-              </li>
+                <div class="form-group row">
+                  <div class="col-md-12">
+                    <textarea
+                      id="message"
+                      name="message"
+                      cols="30"
+                      rows="5"
+                      class="form-control message"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col-md-12">
+                    <button id="submit" class="default-btn" type="submit">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+                <div id="form-messages" class="alert" role="alert"></div>
+              </form>
+            </div>
+          </div>
+
+          <!-- form ends  -->
+          <div class="col-lg-6 sm-padding">
+            <ul class="about-promo" style="display: flex">
+              <a href=" https://www.instagram.com/techicynics/">
+                <li class="about-promo-item wow fadeInUp">
+                  <i class="ti-instagram" width="50" height="50"></i>
+                  <div></div>
+                </li>
+              </a>
+              <a
+                href=" https://www.facebook.com/profile.php?id=100093682321092"
+              >
+                <li
+                  class="about-promo-item wow fadeInUp"
+                  data-wow-delay="300ms"
+                >
+                  <i class="ti-facebook"></i>
+                  <div></div>
+                </li>
+              </a>
+
+              <a
+                href=" https://www.youtube.com/channel/UCTbsUcesngwD7sMO0uweMYQ"
+              >
+                <li
+                  class="about-promo-item wow fadeInUp"
+                  data-wow-delay="300ms"
+                >
+                  <i class="ti-youtube"></i>
+                  <div></div>
+                </li>
+              </a>
             </ul>
           </div>
         </div>
